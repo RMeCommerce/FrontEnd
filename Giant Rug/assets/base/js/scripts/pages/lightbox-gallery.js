@@ -5,6 +5,19 @@ $(document).ready(function() {
         loadMore: '#loadMore-container',
         loadMoreAction: 'click',
         layoutMode: 'grid',
+        //mediaQueries: [{
+        //    width: 1100,
+        //    cols: 4
+        //}, {
+        //    width: 800,
+        //    cols: 3
+        //}, {
+        //    width: 500,
+        //    cols: 2
+        //}, {
+        //    width: 320,
+        //    cols: 1
+        //}],
         defaultFilter: '*',
         animationType: 'rotateSides',
         gapHorizontal: 10,
