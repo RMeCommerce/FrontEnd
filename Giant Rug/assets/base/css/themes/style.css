@@ -435,13 +435,13 @@
     margin: 0;
     max-height: 282px;
     overflow-y: auto; }
-.c-layout-header .c-cart-menu .c-cart-menu-items > li > .c-cart-menu-image {
+.c-layout-header .c-cart-menu .c-cart-menu-items > li > .c-cart-menu-image > a {
     position: relative;
     width: 80px;
     height: 100px;
     float: left;
     margin-right: 20px; }
-.c-layout-header .c-cart-menu .c-cart-menu-items > li > .c-cart-menu-image > img {
+.c-layout-header .c-cart-menu .c-cart-menu-items > li > .c-cart-menu-image > a > img {
     max-width: 100%;
     max-height: 100%;
     position: absolute;
@@ -498,13 +498,13 @@
             width: 100%;
             list-style: none;
             overflow: auto; }
-            .c-layout-header .c-compare-menu .c-compare-menu-items > li > .c-compare-menu-image {
+            .c-layout-header .c-compare-menu .c-compare-menu-items > li > .c-compare-menu-image > a {
                 position: relative;
                 width: 80px;
                 height: 100px;
                 float: left;
                 margin-right: 20px; }
-                .c-layout-header .c-compare-menu .c-compare-menu-items > li > .c-compare-menu-image > img {
+                .c-layout-header .c-compare-menu .c-compare-menu-items > li > .c-compare-menu-image  > a > img {
                     max-width: 100%;
                     max-height: 100%;
                     position: absolute;
@@ -564,13 +564,13 @@
             width: 100%;
             list-style: none;
             overflow: auto; }
-            .c-layout-header .c-search-menu .c-search-menu-items > li > .c-search-menu-image {
+            .c-layout-header .c-search-menu .c-search-menu-items > li > .c-search-menu-image > a {
                 position: relative;
                 width: 80px;
                 height: 100px;
                 float: left;
                 margin-right: 20px; }
-                .c-layout-header .c-search-menu .c-search-menu-items > li > .c-search-menu-image > img {
+                .c-layout-header .c-search-menu .c-search-menu-items > li > .c-search-menu-image > a > img{
                     max-width: 100%;
                     max-height: 100%;
                     position: absolute;
@@ -629,9 +629,22 @@
         font-size: 16px; }
 
 .c-shop-product-details-2 .c-product-gallery > .c-product-gallery-content {
-    height: 100%; }
+    height: 1050px; }
 .c-shop-product-details-2 .c-product-gallery > .c-product-gallery-content > .c-zoom {
-    height: 100%; }
+    height: 1050px; }
+.c-shop-product-details-2 .c-product-gallery > .c-product-gallery-content img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    max-height: 100%; }
+.c-shop-product-details-2 .c-product-gallery > .c-product-gallery-content img.runner {
+    height: 100%;
+    width: auto; }
 .c-product-meta > .c-product-variant a.c-menu-line-icon.c-theme.c-active, .c-product-meta > .c-product-variant a.c-menu-line-icon.c-theme:hover  {
     background-image: url(../../img/content/line-icons/rm6.png);
     background-color: #292e33; }
@@ -766,7 +779,7 @@
         .c-layout-header .c-navbar .c-mega-menu > .nav.navbar-nav > li .dropdown-submenu > a > .c-arrow:before, .c-layout-header .c-navbar .c-mega-menu > .nav.navbar-nav > li a.dropdown-toggle > .c-arrow:before {
             content: "\f107"; }
     .c-layout-header.c-layout-header-6 .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-link {
-        padding: 25px 15px 22px 15px; }
+        padding: 25px 10px 22px 10px; }
     .c-layout-header.c-layout-header-6 .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-btn-icon {
         margin: 8px 3px 0px 3px; padding-right: 0; }
 }

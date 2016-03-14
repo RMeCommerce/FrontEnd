@@ -509,7 +509,8 @@ var ContentOwlcarousel = function () {
 				slideSpeed: parent.data('slide-speed'),
 				paginationSpeed: parent.data('pagination-speed'),
 				singleItem: parent.data("single-item") ? true : false,
-				autoPlay: parent.data("auto-play")
+				autoPlay: parent.data("auto-play"),
+				stopOnHover : true,
 			});
 		});
 	};
